@@ -1,9 +1,9 @@
-import { Component } from "react";
+import React from "react";
 import Input from "./input";
 import Joi from "joi-browser";
 import Select from "./select";
 
-class Form extends Component {
+class Form extends React.Component {
   state = {
     data: {},
     errors: {},
